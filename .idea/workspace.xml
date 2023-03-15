@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Creat classes in pack Chess">
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
+    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update classes">
+      <change afterPath="$PROJECT_DIR$/src/boardGame/BoardException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/boardGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardGame/Board.java" afterDir="false" />
     </list>
@@ -78,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678887580986</updated>
       <workItem from="1678887582267" duration="1259000" />
-      <workItem from="1678910265946" duration="4329000" />
+      <workItem from="1678910265946" duration="5988000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -115,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678913607423</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creat classes King and Rook">
+      <created>1678915313546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678915313546</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update classes">
+      <created>1678915335698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678915335699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +150,8 @@
     <MESSAGE value="First class: position" />
     <MESSAGE value="Creat classes: board and pieces" />
     <MESSAGE value="Creat classes in pack Chess" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creat classes in pack Chess" />
+    <MESSAGE value="Creat classes King and Rook" />
+    <MESSAGE value="Update classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update classes" />
   </component>
 </project>
