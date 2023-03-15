@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardGame/Position.java" afterDir="false" />
+    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="First class: position">
+      <change afterPath="$PROJECT_DIR$/src/boardGame/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boardGame/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678887580986</updated>
       <workItem from="1678887582267" duration="1259000" />
+      <workItem from="1678910265946" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678887635822</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First class: position">
+      <created>1678910411790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678910411790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="First class: position" />
+    <option name="LAST_COMMIT_MESSAGE" value="First class: position" />
   </component>
 </project>
