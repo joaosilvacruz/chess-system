@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update classes">
-      <change afterPath="$PROJECT_DIR$/src/boardGame/BoardException.java" afterDir="false" />
+    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update class Board">
+      <change afterPath="$PROJECT_DIR$/src/chess/ChessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/ChessPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardGame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardGame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678887580986</updated>
       <workItem from="1678887582267" duration="1259000" />
-      <workItem from="1678910265946" duration="5988000" />
+      <workItem from="1678910265946" duration="7827000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -128,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678915335699</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create class">
+      <created>1678916871720</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916871720</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update class Board">
+      <created>1678916883905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678916883905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +167,8 @@
     <MESSAGE value="Creat classes in pack Chess" />
     <MESSAGE value="Creat classes King and Rook" />
     <MESSAGE value="Update classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update classes" />
+    <MESSAGE value="Create class" />
+    <MESSAGE value="Update class Board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update class Board" />
   </component>
 </project>
