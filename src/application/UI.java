@@ -1,9 +1,11 @@
 package application;
 
+import boardGame.BoardException;
 import chess.ChessPiece;
 import chess.ChessPosition;
 import chess.Color;
 
+import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -32,6 +34,21 @@ public class UI {
     public static final String ANSI_PURPLE_BACKGROUND = "\u001B[45m";
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
+
+    public static void clearScreen(){
+        try {
+            if (System.getProperty("os.name").contains("Linux")) {
+                new ProcessBuilder("bash", "-c", "clear").inheritIO().start().waitFor();
+            } else {
+                System.out.print("\033[H\033[2J");
+                System.out.flush();
+            }
+        } catch (BoardException | IOException e) {
+            throw new BoardException("Error in clearScreen");
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     public static ChessPosition readChessPosition (Scanner sc) {
         try {
