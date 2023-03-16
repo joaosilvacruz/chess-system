@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update class Board">
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +78,7 @@
       <updated>1678887580986</updated>
       <workItem from="1678887582267" duration="1259000" />
       <workItem from="1678910265946" duration="7827000" />
+      <workItem from="1678961593800" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
