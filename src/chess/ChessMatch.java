@@ -99,8 +99,13 @@ public class ChessMatch {
         }
 
         check = (testCheck(opponent(currentPlayer))) ? true : false;
+        
+        if (testCheckMate(opponent(currentPlayer))) {
+            checkMate = true;
+        } else{
+            nextTurn();
+        }
 
-        nextTurn();
         return (ChessPiece) capturedPiece;
     }
 
