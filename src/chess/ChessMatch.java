@@ -3,10 +3,7 @@ package chess;
 import boardGame.Board;
 import boardGame.Piece;
 import boardGame.Position;
-import chess.pieces.Bishop;
-import chess.pieces.King;
-import chess.pieces.Pawn;
-import chess.pieces.Rook;
+import chess.pieces.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -71,10 +68,7 @@ public class ChessMatch {
                             ChessPiece pieceAtual = (ChessPiece) board.piece(sourcePosition.toPosition());
                             if (!testCheck) {
                                 if (p.isThereAnyPossibleMove() && pieceAtual.equals(p)){
-                                    System.out.println(pieceAtual);
-                                    System.out.println(p.toString());
                                     aux [i][j] = true;
-                                    System.out.println(aux [i][j]);
                                 }
                             }
                         }
@@ -233,6 +227,12 @@ public class ChessMatch {
         placeNewPiece('f', 1, new Bishop(board, Color.WHITE));
         placeNewPiece('c', 8, new Bishop(board, Color.BLACK));
         placeNewPiece('f', 8, new Bishop(board, Color.BLACK));
+
+        //Place Knights
+        placeNewPiece('b', 1, new Knight(board, Color.WHITE));
+        placeNewPiece('g', 1, new Knight(board, Color.WHITE));
+        placeNewPiece('b', 8, new Knight(board, Color.BLACK));
+        placeNewPiece('g', 8, new Knight(board, Color.BLACK));
 
         //Place Kings
         placeNewPiece('e', 1, new King(board, Color.WHITE));
