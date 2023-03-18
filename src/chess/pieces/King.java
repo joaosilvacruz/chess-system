@@ -2,13 +2,16 @@ package chess.pieces;
 
 import boardGame.Board;
 import boardGame.Position;
+import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.Color;
 
 public class King extends ChessPiece {
+    private ChessMatch chessMatch;
 
-    public King(Board board, Color color) {
+    public King(Board board, Color color, ChessMatch chessMatch) {
         super(board, color);
+        this.chessMatch = chessMatch;
     }
 
     @Override
@@ -19,6 +22,10 @@ public class King extends ChessPiece {
     private boolean canMove(Position position){
         ChessPiece p = (ChessPiece) getBoard().piece(position);
         return p == null || p.getColor() != getColor();
+    }
+
+    private boolean testRookCastling(Position position){
+
     }
 
     @Override
