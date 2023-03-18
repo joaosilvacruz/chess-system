@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update class: Adding pawn methods">
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Bishop.java" afterDir="false" />
+    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Updated Class: Implementing Knight methods">
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Queen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,8 @@
       <workItem from="1679003061529" duration="7591000" />
       <workItem from="1679051041929" duration="9998000" />
       <workItem from="1679069908061" duration="1082000" />
-      <workItem from="1679145225503" duration="4182000" />
+      <workItem from="1679145225503" duration="4427000" />
+      <workItem from="1679169094191" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -264,7 +265,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679150565035</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Create class: Bishop">
+      <created>1679151489381</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679151489381</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update classes: Implemeting Bishop methods">
+      <created>1679151508799</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679151508799</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Creat new Class">
+      <created>1679170040761</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679170040761</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Updated Class: Implementing Knight methods">
+      <created>1679170076647</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679170076647</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +311,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="First class: position" />
     <MESSAGE value="Creat classes: board and pieces" />
     <MESSAGE value="Creat classes in pack Chess" />
@@ -304,6 +332,10 @@
     <MESSAGE value="Update classes: increase move count" />
     <MESSAGE value="Create new class: Pawn" />
     <MESSAGE value="Update class: Adding pawn methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update class: Adding pawn methods" />
+    <MESSAGE value="Create class: Bishop" />
+    <MESSAGE value="Update classes: Implemeting Bishop methods" />
+    <MESSAGE value="Creat new Class" />
+    <MESSAGE value="Updated Class: Implementing Knight methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Class: Implementing Knight methods" />
   </component>
 </project>

@@ -238,6 +238,10 @@ public class ChessMatch {
         placeNewPiece('e', 1, new King(board, Color.WHITE));
         placeNewPiece('e', 8, new King(board, Color.BLACK));
 
+        //Place Queens
+        placeNewPiece('d', 1, new Queen(board, Color.WHITE));
+        placeNewPiece('d', 8, new Queen(board, Color.BLACK));
+
 
     }
 

@@ -29,7 +29,6 @@ public class Rook extends ChessPiece {
         }
         if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             matrix[p.getRow()][p.getColumn()] = true;
-            p.setRow(p.getRow() - 1);
         }
 
         // below
@@ -40,7 +39,6 @@ public class Rook extends ChessPiece {
         }
         if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             matrix[p.getRow()][p.getColumn()] = true;
-            p.setRow(p.getRow() + 1);
         }
 
         // left
@@ -51,7 +49,6 @@ public class Rook extends ChessPiece {
         }
         if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             matrix[p.getRow()][p.getColumn()] = true;
-            p.setColumn(p.getColumn() - 1);
         }
 
         // right
@@ -62,7 +59,6 @@ public class Rook extends ChessPiece {
         }
         if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             matrix[p.getRow()][p.getColumn()] = true;
-            p.setColumn(p.getColumn() + 1);
         }
 
         return matrix;
