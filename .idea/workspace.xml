@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Implementing checkmate" />
+    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update class: Adding pawn methods">
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +87,7 @@
       <workItem from="1679003061529" duration="7591000" />
       <workItem from="1679051041929" duration="9998000" />
       <workItem from="1679069908061" duration="1082000" />
+      <workItem from="1679145225503" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -237,7 +243,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679070819200</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update classes: increase move count">
+      <created>1679145485769</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679145485769</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Create new class: Pawn">
+      <created>1679150548377</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679150548377</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update class: Adding pawn methods">
+      <created>1679150565035</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679150565035</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +301,9 @@
     <MESSAGE value="Update Classes: Implementing check logic" />
     <MESSAGE value="Update moves check: restricting moves on the check" />
     <MESSAGE value="Implementing checkmate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing checkmate" />
+    <MESSAGE value="Update classes: increase move count" />
+    <MESSAGE value="Create new class: Pawn" />
+    <MESSAGE value="Update class: Adding pawn methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update class: Adding pawn methods" />
   </component>
 </project>

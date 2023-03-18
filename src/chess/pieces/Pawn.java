@@ -72,6 +72,6 @@ public class Pawn extends ChessPiece {
                     matrix[p.getRow()][p.getColumn()] = true;
                 }
         }
-        return null;
+        return matrix;
     }
 }
