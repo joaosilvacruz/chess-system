@@ -19,6 +19,7 @@ public class ChessMatch {
     private Color currentPlayer;
     private boolean check;
     private boolean checkMate;
+    private ChessPiece enPassantVulnerable;
 
     private List<Piece> piecesOnTheBoard = new ArrayList<>();
     private List<Piece> capturedPieces = new ArrayList<>();
@@ -94,12 +95,21 @@ public class ChessMatch {
             throw new ChessException("You can't put yourself in check");
         }
 
+        ChessPiece movedPiece = (ChessPiece)board.piece(target);
+
         check = (testCheck(opponent(currentPlayer))) ? true : false;
         
         if (testCheckMate(opponent(currentPlayer))) {
             checkMate = true;
         } else{
             nextTurn();
+        }
+
+        // SpecialMove en passant
+        if (movedPiece instanceof Pawn && (target.getRow() == source.getRow()-2 || target.getRow() == source.getRow() +2)) {
+            enPassantVulnerable = movedPiece;
+        } else {
+            enPassantVulnerable = null;
         }
 
         return (ChessPiece) capturedPiece;
@@ -247,8 +257,8 @@ public class ChessMatch {
         //Place pawns
         String stringColumns = "abcdefgh";
         for (int i=0; i<board.getRows(); i++){
-            placeNewPiece(stringColumns.charAt(i), 2, new Pawn(board, Color.WHITE));
-            placeNewPiece(stringColumns.charAt(i), 7, new Pawn(board, Color.BLACK));
+            placeNewPiece(stringColumns.charAt(i), 2, new Pawn(board, Color.WHITE, this));
+            placeNewPiece(stringColumns.charAt(i), 7, new Pawn(board, Color.BLACK, this));
         }
         //Place Rooks
         placeNewPiece('a', 1, new Rook(board, Color.WHITE));
@@ -293,6 +303,10 @@ public class ChessMatch {
 
     public boolean getCheck(){
         return check;
+    }
+
+    public ChessPiece getEnPassantVulnerable(){
+        return enPassantVulnerable;
     }
 
 }
