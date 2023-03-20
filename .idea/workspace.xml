@@ -7,7 +7,6 @@
     <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Update classes: Implemeting special move">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1679069908061" duration="1082000" />
       <workItem from="1679145225503" duration="4427000" />
       <workItem from="1679169094191" duration="2895000" />
-      <workItem from="1679310108657" duration="2746000" />
+      <workItem from="1679310108657" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -320,7 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679311693041</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Update classes: Implemeting special move">
+      <created>1679312986647</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679312986647</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Update classes: Implemeting special move">
+      <created>1679312994848</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679312994848</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
