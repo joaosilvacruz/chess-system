@@ -101,7 +101,7 @@ public class King extends ChessPiece {
 				Position p2 = new Position(position.getRow(), position.getColumn() - 2);
 				Position p3 = new Position(position.getRow(), position.getColumn() - 3);
 				if (getBoard().piece(p1) == null && getBoard().piece(p2) == null && getBoard().piece(p3) == null) {
-					matrix[position.getRow()][position.getColumn() + 2] = true;
+					matrix[position.getRow()][position.getColumn() -2] = true;
 				}
 			}
 		}

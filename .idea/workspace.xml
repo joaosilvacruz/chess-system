@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Updated new classes: Implementing queen method">
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
+    <list default="true" id="871ed04d-9730-4257-979e-3cd3f6b6c88c" name="Changes" comment="Implementing RookCastling move">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
@@ -84,7 +85,8 @@
       <workItem from="1679051041929" duration="9998000" />
       <workItem from="1679069908061" duration="1082000" />
       <workItem from="1679145225503" duration="4427000" />
-      <workItem from="1679169094191" duration="2699000" />
+      <workItem from="1679169094191" duration="2895000" />
+      <workItem from="1679310108657" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678887594785</created>
@@ -303,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679171197902</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Implementing RookCastling move">
+      <created>1679171981646</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679171981646</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +330,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creat classes in pack Chess" />
     <MESSAGE value="Creat classes King and Rook" />
     <MESSAGE value="Create class" />
     <MESSAGE value="Update class Board" />
@@ -346,6 +354,7 @@
     <MESSAGE value="Updated Class: Implementing Knight methods" />
     <MESSAGE value="Created class: Queen" />
     <MESSAGE value="Updated new classes: Implementing queen method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated new classes: Implementing queen method" />
+    <MESSAGE value="Implementing RookCastling move" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing RookCastling move" />
   </component>
 </project>
